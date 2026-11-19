@@ -1,6 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "alan-douglas-portfolio",
+  // Personal account (the login also has client accounts).
+  "account_id": "18243cf26fa581d178650e2f07729449",
   "compatibility_date": "2026-11-01",
   // Assets-only Worker: no server code. `npm run build` produces ./out.
   "assets": {
