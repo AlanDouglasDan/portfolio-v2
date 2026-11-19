@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "alan-douglas-portfolio",
+  "compatibility_date": "2026-11-01",
+  // Assets-only Worker: no server code. `npm run build` produces ./out.
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
